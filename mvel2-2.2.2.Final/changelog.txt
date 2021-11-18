@@ -1,0 +1,3 @@
+Changes in 2.2.2.Final-e3
+*  Avoided infinite loop in CompileException#showCodeNearError
+Note: from 413911bfa80cc4137d76b54985f4f2ebf0b615b7 changes of azukovskij it is not compatable with Java 6 and tests should be skipped while releasing new version

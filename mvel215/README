@@ -1,0 +1,6 @@
+Exigen modified version of Codehaus MVEL 2.0.15
+
+Changed:
+ - To AbstractOptimizer.java added static map "badClasses" for  caching of not found classes.
+   For details refer to https://jira.exigenservices.com/browse/EISDEV-18477
+ 

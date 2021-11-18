@@ -1,0 +1,72 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1551358000147
+Build-Jdk: 11.0.1
+Built-By: mulevicius
+Bundle-Description: MVEL is a powerful expression language for Java-base
+ d applications.        It provides a plethora of features and is suited
+  for everything        from the smallest property binding and extractio
+ n, to full blown scripts.
+Bundle-DocURL: http://www.jboss.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: mvel2
+Bundle-SymbolicName: org.mvel2
+Bundle-Vendor: JBoss by Red Hat
+Bundle-Version: 2.4.5.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.mvel2.templates.util.io;uses:="org.mvel2.templates.u
+ til,org.mvel2.util";version="2.4.5.SNAPSHOT",org.mvel2.jsr223;uses:="ja
+ vax.script,org.mvel2";version="2.4.5.SNAPSHOT",org.mvel2.sh.text;versio
+ n="2.4.5.SNAPSHOT",org.mvel2.templates;uses:="org.mvel2.templates.res,o
+ rg.mvel2,org.mvel2.util,org.mvel2.templates.util,org.mvel2.templates.ut
+ il.io,org.mvel2.integration,org.mvel2.integration.impl";version="2.4.5.
+ SNAPSHOT",org.mvel2.optimizers.impl.refl;uses:="org.mvel2.compiler,org.
+ mvel2.optimizers,org.mvel2.optimizers.impl.refl.collection,org.mvel2.as
+ t,org.mvel2,org.mvel2.util,org.mvel2.integration,org.mvel2.optimizers.i
+ mpl.refl.nodes";version="2.4.5.SNAPSHOT",org.mvel2.sh.command.basic;use
+ s:="org.mvel2.sh,org.mvel2.sh.text,org.mvel2.util,org.mvel2";version="2
+ .4.5.SNAPSHOT",org.mvel2;uses:="org.mvel2.util,org.mvel2.conversion,org
+ .mvel2.compiler,org.mvel2.integration,org.mvel2.integration.impl,org.mv
+ el2.optimizers.impl.refl.nodes,org.mvel2.ast,org.mvel2.debug,org.mvel2.
+ optimizers";version="2.4.5.SNAPSHOT",org.mvel2.asm.signature;uses:="org
+ .mvel2.asm";version="2.4.5.SNAPSHOT",org.mvel2.optimizers.impl.asm;uses
+ :="org.mvel2.asm,org.mvel2.compiler,org.mvel2.optimizers,org.mvel2.ast,
+ org.mvel2,org.mvel2.util,org.mvel2.integration,org.mvel2.optimizers.imp
+ l.refl.nodes";version="2.4.5.SNAPSHOT",org.mvel2.debug;uses:="org.mvel2
+ ,org.mvel2.compiler,org.mvel2.util,org.mvel2.integration,org.mvel2.ast"
+ ;version="2.4.5.SNAPSHOT",org.mvel2.integration.impl;uses:="org.mvel2,o
+ rg.mvel2.integration,org.mvel2.ast,org.mvel2.util";version="2.4.5.SNAPS
+ HOT",org.mvel2.optimizers.impl.refl.nodes;uses:="org.mvel2.compiler,org
+ .mvel2.integration,org.mvel2,org.mvel2.util,org.mvel2.ast,org.mvel2.opt
+ imizers";version="2.4.5.SNAPSHOT",org.mvel2.asm;version="2.4.5.SNAPSHOT
+ ",org.mvel2.compiler;uses:="org.mvel2,org.mvel2.util,org.mvel2.integrat
+ ion,org.mvel2.ast,org.mvel2.optimizers,org.mvel2.integration.impl,org.m
+ vel2.optimizers.impl.refl.nodes";version="2.4.5.SNAPSHOT",org.mvel2.opt
+ imizers;uses:="org.mvel2,org.mvel2.compiler,org.mvel2.util,org.mvel2.in
+ tegration,org.mvel2.optimizers.impl.asm,org.mvel2.optimizers.impl.refl,
+ org.mvel2.optimizers.dynamic";version="2.4.5.SNAPSHOT",org.mvel2.optimi
+ zers.impl.refl.collection;uses:="org.mvel2.compiler,org.mvel2.integrati
+ on,org.mvel2,org.mvel2.util";version="2.4.5.SNAPSHOT",org.mvel2.templat
+ es.util;uses:="org.mvel2.util,org.mvel2.templates,org.mvel2.templates.r
+ es";version="2.4.5.SNAPSHOT",org.mvel2.ast;uses:="org.mvel2,org.mvel2.c
+ ompiler,org.mvel2.util,org.mvel2.integration,org.mvel2.optimizers,org.m
+ vel2.debug,org.mvel2.math,org.mvel2.integration.impl";version="2.4.5.SN
+ APSHOT",org.mvel2.templates.res;uses:="org.mvel2,org.mvel2.integration,
+ org.mvel2.templates,org.mvel2.templates.util,org.mvel2.util,org.mvel2.i
+ ntegration.impl";version="2.4.5.SNAPSHOT",org.mvel2.optimizers.dynamic;
+ uses:="org.mvel2.compiler,org.mvel2.util,org.mvel2,org.mvel2.optimizers
+ ,org.mvel2.integration,org.mvel2.optimizers.impl.asm";version="2.4.5.SN
+ APSHOT",org.mvel2.conversion;uses:="org.mvel2,org.mvel2.compiler";versi
+ on="2.4.5.SNAPSHOT",org.mvel2.sh;uses:="org.mvel2,org.mvel2.templates,o
+ rg.mvel2.sh.command.file,org.mvel2.util,org.mvel2.integration,org.mvel2
+ .integration.impl,org.mvel2.sh.command.basic";version="2.4.5.SNAPSHOT",
+ org.mvel2.math;uses:="org.mvel2,org.mvel2.compiler,org.mvel2.util,org.m
+ vel2.debug";version="2.4.5.SNAPSHOT",org.mvel2.sh.command.file;uses:="o
+ rg.mvel2.sh";version="2.4.5.SNAPSHOT",org.mvel2.util;uses:="org.mvel2,o
+ rg.mvel2.ast,org.mvel2.integration,org.mvel2.compiler,org.mvel2.integra
+ tion.impl,org.mvel2.math";version="2.4.5.SNAPSHOT",org.mvel2.integratio
+ n;uses:="org.mvel2.ast";version="2.4.5.SNAPSHOT"
+Import-Package: javax.script
+Main-Class: org.mvel2.sh.Main
+Package: org.mvel2
+Tool: Bnd-1.50.0
